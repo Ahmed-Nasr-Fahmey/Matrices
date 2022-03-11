@@ -1,5 +1,5 @@
-body{
-    background-color: rgb(238, 238, 238);
+*body{
+    background-color: rgb(255, 255, 255);
     min-height: 100vh;
     font-family:Verdana,sans-serif;
     font-size:15px;line-height:1.5
@@ -7,7 +7,7 @@ body{
 
 
 header {
-    background-color: #ffffff;
+    background-color: #dddddd;
     width: 100%;
     position: fixed;
     z-index: 999;
