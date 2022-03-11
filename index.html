@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linear Task</title>
+    <link rel="stylesheet" href="index.css">
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap Stylesheet -->
+    <link rel="stylesheet" href="bootstrap.min.css">
+    
+    </head>
+<body>
+    
+    <header>
+        <a href="#" class="logo">Ahmed Nasr</a>
+        <nav class="navigation">
+    
+        </nav>
+    </header>
+
+    <div class='w3-main w3-light-grey' id='belowtopnav' style='margin-left:220px; margin-right:220px;'>
+        <div class='w3-row w3-white'>
+          <div class='w3-col l10 m12' id='main'>
+            <div id='mainLeaderboard' style='overflow:hidden;'>
+              <!-- MainLeaderboard-->
+      
+              <!--<pre>main_leaderboard, all: [728,90][970,90][320,50][468,60]</pre>-->
+              <div id="adngin-main_leaderboard-0"></div>
+              <!-- adspace leaderboard -->
+      
+            </div>
+        </br></br></br></br></br>
+      <h1>Matrices</h1>
+      </div>
+      
+      <div class="w3-panel w3-info">
+      <p>A matrix is set of <b>Numbers</b>.</p>
+      <p>A matrix is an <b>Rectangular Array</b>.</p>
+      <p>A matrix is arranged in <b>Rows</b> and <b>Columns</b>.</p>
+      </div>
+      <hr>
+      <h2>Matrix Dimensions</h2>
+      
+      <p>This <b>Matrix</b> has <b>1</b> row and <b>3</b> columns:</p>
+      <table class="w3-large">
+      <tr>
+      <td>C =&nbsp;&nbsp;</td>
+      <td>
+      <table class="matrix">
+      <tr>
+        <td>2</td>
+        <td>5</td>
+        <td>3<td>
+      </tr>
+      </table>
+      </td>
+      </tr>
+      </table>
+      <p>The <b>Dimension</b> of the matrix is (<b>1</b>x<b>3</b>).</p>
+     <br>
+      <p>This matrix has <b>2</b> rows and <b>3</b> columns:</p>
+      <table class="w3-large">
+      <tr>
+      <td>C =&nbsp;&nbsp;</td>
+      <td>
+      <table class="matrix">
+      <tr>
+        <td>2</td>
+        <td>5</td>
+        <td>3<td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>7</td>
+        <td>1</td>
+      </tr>
+      </table>
+      </td>
+      </tr>
+      </table>
+      <p>The dimension of the matrix is (<b>2</b>x<b>3</b>).</p>
+      <hr>
+      <h2>Square Matrices</h2>
+      <p>A <b>Square Matrix</b> is a matrix with the same number of rows and columns.</p>
+      <p>An n-by-n matrix is known as a square matrix of order n.</p>
+      <p>A <b>2-by-2</b> matrix (Square matrix of order 2):</p>
+      <table class="w3-large">
+      <tr>
+      <td>C =&nbsp;&nbsp;</td>
+      <td>
+      <table class="matrix">
+      <tr>
+        <td>1</td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>4</td>
+      </tr>
+      </table>
+      </td>
+      </tr>
+      </table>
+      <br>
+
+      <p>A <b>4-by-4</b> matrix (Square matrix of order 4):</p>
+      <table class="w3-large">
+      <tr>
+      <td>C =&nbsp;&nbsp;</td>
+      <td>
+      <table class="matrix">
+      <tr>
+        <td>1</td>
+        <td>-2</td>
+        <td>3</td>
+        <td>4</td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td>6</td>
+        <td>-7</td>
+        <td>8</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>3</td>
+        <td>2</td>
+        <td>-1</td>
+      </tr>
+      <tr>
+        <td>8</td>
+        <td>7</td>
+        <td>6</td>
+        <td>-5</td>
+      </tr>
+      
+      </table>
+      </td>
+      </tr>
+      </table>
+      <br>
+      <hr>
+      <h2>Row Matrix</h2>
+      <p>A <b>Row Matrix</b> is a matrix having only one row.</p>
+      <p> A = [a<sub><b>ij</b></sub>]<sub><b>mxn</b></sub> is a row matrix if <b>m</b> = 1.</p>
+      <table class="w3-large">
+        <tr>
+        <td>C =&nbsp;&nbsp;</td>
+        <td>
+        <table class="matrix">
+        <tr>
+          <td>2</td>
+          <td>5</td>
+          <td>3<td>
+        </tr>
+        </table>
+        </td>
+        </tr>
+        </table>
+        <br>
+      <hr>
+      <h2>Colomn Matrix</h2>
+      <p>A <b>Colomn Matrix</b> is amatrix having only one column.</p>
+      <p> A = [a<sub><b>ij</b></sub>]<sub><b>mxn</b></sub> is a column matrix if <b>n</b> = 1.</p>
+      <table class="w3-large">
+      <tr>
+      <td>C =&nbsp;&nbsp;</td>
+      <td>
+      <table class="matrix">
+      <tr>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td>3</td>
+      </tr>
+      </table>
+      </td>
+      </tr>
+      </table>
+      <br>
+      <hr>
+      <h2>Diagonal Matrices</h2>
+      <p>A <b>Diagonal Matrix</b> has values on the diagonal entries, and <b>zero</b> on the rest:
+      <table class="w3-large">
+      <tr>
+      <td>C =&nbsp;&nbsp;&nbsp;</td>
+      <td>
+      <table class="matrix">
+      <tr>
+        <td><b>2</b></td>
+        <td>0</td>
+        <td>0</td>
+      </tr>
+      <tr>
+        <td>0</td>
+        <td><b>5</b></td>
+        <td>0</td>
+      </tr>
+      <tr>
+        <td>0</td>
+        <td>0</td>
+        <td><b>3</b></td>
+      </tr>
+      </table>
+      </td>
+      </table>
+      <br>
+      <hr>
+      <h2>Symmetric Matrices</h2>
+      <p>A <b>Square Matrix</b> A = [a<sub><b>ij</b></sub>] is called a<b> symmetric matrix</b> if a<sub><b>ij</b></sub> = a<sub><b>ji</b></sub></p>
+      
+      <table class="w3-large">
+      <tr>
+      <td>C =&nbsp;&nbsp;&nbsp;</td>
+      <td>
+      <table class="matrix">
+      <tr>
+        <td>1</td>
+        <td><b>2</b></td>
+        <td><b>5</b></td>
+      </tr>
+      <tr>
+        <td><b>2</b></td>
+        <td>5</td>
+        <td><b>7</b></td>
+      </tr>
+      <tr>
+        <td><b>5</b></td>
+        <td><b>7</b></td>
+        <td>9</td>
+      </tr>
+      </table>
+      </td>
+      </table>
+      <br>
+      <hr>
+      <h2>Scalar Matrices</h2>
+      <p>A <b>Scalar Matrix</b> has equal diagonal entries and <b>zero</b> on the rest:
+      <table class="w3-large">
+      <tr>
+      <td>C =&nbsp;&nbsp;&nbsp;</td>
+      <td>
+      <table class="matrix">
+      <tr>
+        <td><b>3</b></td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+      </tr>
+      <tr>
+        <td>0</td>
+        <td><b>3</b></td>
+        <td>0</td>
+        <td>0</td>
+      </tr>
+      <tr>
+        <td>0</td>
+        <td>0</td>
+        <td><b>3</b></td>
+        <td>0</td>
+      </tr>
+      <tr>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td><b>3</b></td>
+      </tr>
+      </table>
+      </td>
+      </table>
+      <br>
+      <hr>
+      <h2>The Identity Matrix</h2>
+      <p>The <b>Identity Matrix</b> has <b>1</b> on the diagonal and <b>0</b> on the rest.</p>
+      <p>This is the matrix equivalent of 1. The symbol is <b>I</b>.</p>
+      
+      <table class="w3-large">
+      <tr>
+      <td>I =&nbsp;&nbsp;&nbsp;</td>
+      <td>
+      <table class="matrix">
+      <tr>
+        <td><b>1</b></td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+      </tr>
+      <tr>
+        <td>0</td>
+        <td><b>1</b></td>
+        <td>0</td>
+        <td>0</td>
+      </tr>
+      <tr>
+        <td>0</td>
+        <td>0</td>
+        <td><b>1</b></td>
+        <td>0</td>
+      </tr>
+      <tr>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td><b>1</b></td>
+      </tr>
+      </table>
+      </td>
+      </table>
+      <p>If you multiply any matrix with the identity matrix, the result equals the original.</p>
+      <br>
+      <hr>
+      <h2>The Zero Matrix</h2>
+      <p>The <b>Zero Matrix</b> (Null Matrix) has only zeros.</p>
+      
+      <table class="w3-large">
+      <tr>
+      <td>C =&nbsp;&nbsp;&nbsp;</td>
+      <td>
+      <table class="matrix">
+      <tr>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+      </tr>
+      <tr>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+      </tr>
+      </table>
+      </td>
+      </table>
+      <br>
+      <hr>
+      <h2>Equal Matrices</h2>
+      <p>Matrices are <b>Equal</b> if each element correspond:</p>
+      <table class="w3-large">
+      <tr>
+      <td>
+      <table class="matrix">
+      <tr>
+        <td>2</td>
+        <td>5</td>
+        <td>3<td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>7</td>
+        <td>1</td>
+      </tr>
+      </table>
+      </td>
+      <td>&nbsp;&nbsp;=&nbsp;&nbsp;</td>
+      <td>
+      <table class="matrix">
+      <tr>
+        <td>2</td>
+        <td>5</td>
+        <td>3<td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>7</td>
+        <td>1</td>
+      </tr>
+      </table>
+      </td>
+      </tr>
+      </table>
+      <br>
+      <hr>
+      <h2>Negative Matrices</h2>
+      <p>The <b>Negative</b> of a matrix is easy to understand:</p>
+      <table class="w3-large">
+      <tr>
+      <td>&nbsp;&nbsp;-&nbsp;&nbsp;</td>
+      <td>
+      <table class="matrix">
+      <tr>
+        <td>-2</td>
+        <td>5</td>
+        <td>3<td>
+      </tr>
+      <tr>
+        <td>-4</td>
+        <td>7</td>
+        <td>1</td>
+      </tr>
+      </table>
+      </td>
+      <td>&nbsp;&nbsp;=&nbsp;&nbsp;</td>
+      <td>
+      <table class="matrix">
+      <tr>
+        <td>2</td>
+        <td>-5</td>
+        <td>-3<td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>-7</td>
+        <td>-1</td>
+      </tr>
+      </table>
+      </td>
+      </tr>
+      </table>
+      <br>
+      <hr>
+      <h2>Adding Matrices</h2>
+      <p>If two matrices have the same dimension, we can add them:</p>
+      <table class="w3-large">
+        <h3>Example</h3>
+      <tr><td>
+      <table class="matrix">
+      <tr>
+        <td>2</td>
+        <td>5</td>
+        <td>3<td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>7</td>
+        <td>1</td>
+      </tr>
+      </table>
+      </td>
+      
+      <td>&nbsp;+&nbsp;</td>
+      
+      <td>
+      <table class="w3 matrix">
+      <tr>
+        <td>4</td>
+        <td>7</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>5</td>
+        <td>3<td>
+      </tr>
+      </table>
+      </td>
+      
+      <td>&nbsp;=&nbsp;</td>
+      
+      <td>
+      <table class="matrix">
+      <tr>
+        <td>6</td>
+        <td>12</td>
+        <td>4<td>
+      </tr>
+      <tr>
+        <td>6</td>
+        <td>12</td>
+        <td>4</td>
+      </tr>
+      </table>
+      </td>
+      </tr>
+      </table>
+      <div class="w3-example">
+      <br>
+      <hr>
+      <h2>Subtracting Matrices</h2>
+      <p>If two matrices have the same dimension, we can subtract them:</p>
+      <table class="w3-large">
+        <h3>Example</h3>
+      <tr><td>
+      <table class="matrix">
+      <tr>
+        <td>2</td>
+        <td>5</td>
+        <td>3<td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>7</td>
+        <td>1</td>
+      </tr>
+      </table>
+      </td>
+      
+      <td>&nbsp;-&nbsp;</td>
+      
+      <td>
+      <table class="w3 matrix">
+      <tr>
+        <td>4</td>
+        <td>7</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>5</td>
+        <td>3<td>
+      </tr>
+      </table>
+      </td>
+      
+      <td>&nbsp;=&nbsp;</td>
+      
+      <td>
+      <table class="matrix">
+      <tr>
+        <td>-2</td>
+        <td>-2</td>
+        <td>2<td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>2</td>
+        <td>-2</td>
+      </tr>
+      </table>
+      </td>
+      
+      </tr>
+      </table>
+      <div class="w3-example">
+        <br>
+      <hr>
+      <h2>Scalar Multiplication</h2>
+      <p>While numbers in rows and columns are called <b>Matrices</b>, single numbers are called <b>Scalars</b>.</p>
+      <p>It is easy to multiply a matrix with a scalar. Just multiply each number in the matrix with the scalar:</p>
+      
+      <table class="w3-large">
+        <h3>Example</h3>
+      <tr><td>
+      <table class="matrix">
+      <tr>
+        <td>2</td>
+        <td>5</td>
+        <td>3<td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>7</td>
+        <td>1</td>
+      </tr>
+      </table>
+      </td>
+      
+      <td>&nbsp;&nbsp;&nbsp;x 2 =&nbsp;&nbsp;&nbsp;</td>
+      
+      <td>
+      <table class="matrix">
+      <tr>
+        <td>4</td>
+        <td>10</td>
+        <td>6<td>
+      </tr>
+      <tr>
+        <td>8</td>
+        <td>14</td>
+        <td>2</td>
+      </tr>
+      </table>
+      </td>
+      
+      </tr>
+      </table>
+      <div class="w3-example">
+        <br>
+      <hr>
+      <h2>Transpose a Matrix</h2>
+      <p>To transpose a matrix, means to replace rows with columns.</p>
+      <p>When you swap rows and columns, you rotate the matrix around it's diagonal.</p>
+      
+      <table class="w3-large">
+      
+      <tr>
+      <td>A =&nbsp;&nbsp;&nbsp;</td>
+      <td>
+      <table class="matrix">
+      <tr>
+        <td>1</td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>4</td>
+      </tr>
+      </table>
+      </td>
+      <td>&nbsp;&nbsp;&nbsp;&nbsp;A<sup>T</sup> =&nbsp;&nbsp;</td>
+      
+      <td>
+      <table class="w3 matrix">
+      <tr>
+        <td>1</td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>4</td>
+      </tr>
+      </table>
+      </td>
+      </table>
+      <br>
+      <hr>
+      <h2>Multiplying Matrices</h2>
+      <p>Multiplying matrices is more difficult.</p>
+      <p>We can only multiply two matrices if the number of rows in matrix A is the same as the number of columns in matrix B.</p>
+      <p>Then, we need to compile a "dot product":</p>
+      
+      <p>We need to multiply the numbers in each <b>row of A</b> with the numbers in each <b>column of B</b>, and then add the products:</p>
+      <div class="w3-example">
+      <h3>Explained:</h3>
+      <table class="w3-large">
+      <tr>
+      <td align="center">A</td>
+      <td></td>
+      <td align="center">B</td>
+      <td></td>
+      <td align="center">C</td>
+      <td></td>
+      <td align="center">C</td>
+      
+      </tr>
+      
+      <tr><td>
+      <table class="matrix">
+      <tr>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td>3</td>
+      </tr>
+      </table>
+      </td>
+      
+      <td>&nbsp;x&nbsp;</td>
+      
+      <td>
+      <table class="w3 matrix">
+      <tr>
+        <td>1</td>
+        <td>1</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>2</td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>3</td>
+        <td>3</td>
+      </tr>
+      </table>
+      </td>
+      
+      <td>&nbsp;=&nbsp;</td>
+      
+      <td>
+      <table class="matrix">
+      <tr>
+        <td>1x1 + 2x1 + 3x1</td>
+      </tr>
+      <tr>
+        <td>1x2 + 2x2 + 3x2</td>
+      </tr>
+      <tr>
+        <td>1x3 + 2x3 + 3x3</td>
+      </tr>
+      </table>
+      </td>
+      
+      <td>&nbsp;=&nbsp;</td>
+      
+      <td>
+      <table class="matrix">
+      <tr>
+        <td>6</td>
+      </tr>
+      <tr>
+        <td>12</td>
+      </tr>
+      <tr>
+        <td>18</td>
+      </tr>
+      </table>
+      </td>
+      </tr>
+      </table>
+      <br><br>
+      </div>
+      </div>
+      </div>
+    </div></div></div>
+    <!-- Footer -->
+    <footer>
+        <div class="container" style="padding: 80px 0;" align="center"> 
+            <a href="https://www.facebook.com/profile.php?id=100027562140600">
+                <i class="fa fa-facebook fa-lg white-text mr-md-5 mr-3 fa-2x"></i>
+            </a>
+                <a href="mailto:01211972375ahmed@gmail.com">
+                        <i class="fa fa-google-plus fa-lg white-text mr-md-5 mr-3 fa-2x"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/ahmed-nasr-46a085221/">
+                            <i class="fa fa-linkedin fa-lg white-text mr-md-5 mr-3 fa-2x"></i>
+                        </a>
+                        <a href="https://www.instagram.com/ahmednasr835/">
+                                <i class="fa fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"></i>
+                            </a>
+                            
+        </div>
+    </footer>
+
+</body>
+</html>
